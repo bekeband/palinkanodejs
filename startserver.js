@@ -1,7 +1,7 @@
 var mysql = require('mysql');
 var http = require('http');
 var url = require('url');
-const querystring = require('querystring');
+var querystring = require('querystring');
 
 var db = mysql.createConnection({
   host: "localhost",
