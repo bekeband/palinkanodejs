@@ -16,7 +16,9 @@ db.connect(function (err) {
 });
 
 function getDomain() {
-  return result = dbQuery('SELECT * from datas;');
+  var result;
+  result = dbQuery('SELECT * from datas;');
+  return result;
 }
 
 // * Important promise function
