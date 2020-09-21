@@ -34,7 +34,7 @@ function dbQuery(databaseQuery) {
 
         data(result);
 
-      } catch (error) {
+      } catch (err) {
         data({});
         throw error;
       }
